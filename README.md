@@ -2,9 +2,9 @@
 
 ## Github Account Assignment
 
-"GitHub was built by ___________ for ________________"
+"GitHub was built by developers for developers"
 
-"Git is a ______________ (VCS)."
+"Git is a version control system (VCS)."
 
-"GitHub is owned by ______________"
+"GitHub is owned by Microsoft"
 
