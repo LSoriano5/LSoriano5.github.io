@@ -1,39 +1,118 @@
-<!doctype html>
-<html>
-<head>
-    <title>Leo's Portfolio Page</title>
-    <link rel="icon" type="image/png" href="images/favicon.png" />
-    <script src="js/bootstrap.bundle.min.js"></script>
-    <link rel="stylesheet" href="css/custom.css">
-   
-</head>
-<style>
-</style>
-<body>
-    <div class="card m-2" style="width: 30rem;">
-        <img src="images/profilepic.jpg" class="card-img-top" alt="My profile picture">
-        <div class="card-body">
-          <h5 class="card-title">About Me</h5>
-          <p class="card-text">
-            Currently a student at OSU majoring in Computer Science. I have obtained a BS in Health Science from Cal State Channel Islands. I have worked in different settings ranging from a medical office working as a physical therapy technician, served in fine dining, and currently working at a brewery serving and helping plan events for them. With everything that I have done in a work setting has prepared me for any scenario or environment I put myself in. 
+<!DOCTYPE html>
+<html lang="en">
+<head>    
+  <title>Leo's Portfolio Page</title>
+  <link rel="icon" type="image/png" href="images/favicon.png" />
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <link rel="stylesheet" href="css/custom.css">  
+  <link href="https://getbootstrap.com/docs/5.1/examples/product/"    rel="styesheet">
 
-            Some projects that I have done over the years was that I have managed a flu shot clinic for my University. Organized nursing students to give these shots to university students and family members at no cost totaling to 2500 shots. I have also organized events for a brewery by promoting the brand and building events to bring the community together.</p>
-        </div>
+   <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+    </style>
+
+</head>
+<body>
+    
+  <header class="site-header sticky-top py-1">
+   <nav class="container d-flex flex-column flex-md-row justify-content-between">
+    <a class="py-2" href="https://getbootstrap.com/docs/5.1/examples/product/#" aria-label="Product">
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="black" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="d-block mx-auto" role="img" viewBox="0 0 24 24"><title>Product</title><circle cx="12" cy="12" r="10"></circle><path d="M14.31 8l5.74 9.94M9.69 8h11.48M7.38 12l5.74-9.94M9.69 16L3.95 6.06M14.31 16H2.83m13.79-4l-5.74 9.94"></path></svg>
+      
+    </a>
+    
+    <a class="py-2 d-none d-md-inline-block" href="#scrollTarget">About Me</a>
+    <a class="py-2 d-none d-md-inline-block" href="https://blank.page/#"target="_blank">Projects</a>
+    <a class="py-2 d-none d-md-inline-block" href="https://www.instagram.com/leo_soriano15/?hl=en/#"target="_blank">My Life</a>
+    <a class="py-2 d-none d-md-inline-block" href="https://www.youtube.com/watch?v=TQMbvJNRpLE/#"target="_blank">Future Plans</a>
+    <a class="py-2 d-none d-md-inline-block" href="https://www.linkedin.com/in/leonardo-soriano-884a87297/"target="_blank">Contact Me</a>
+  </nav>
+ </header>
+
+<main>
+
+  <div class="position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center bg-light" style="background-image: url('images/OregonPanoramic.jpeg'); background-size: cover; background-position: center;">
+    <div class="col-md-6 p-lg-5 mx-auto my-5" style="height: 550px; display: flex; align-items: center; justify-content: center; flex-direction: column;">
+     <h1 class="display-5 fw-normal" style="color: rgb(253, 253, 2);">Leonardo Soriano</h1>
+      <p class="lead fw-normal" style="color: rgb(253, 253, 2)">Hello and welome to my page.</p>
+      <a class="btn btn-outline-secondary" href="#scrollTarget" style="color: rgb(253, 253, 2);" href="https://getbootstrap.com/docs/5.1/examples/product/#">Lets go!</a>
+    </div>
     </div>
 
-    <div class="card m-2" style="width: 30rem;">
-        <img src="images/ContactMe.jpeg" class="card-img-top" alt="My profile picture">
-        <div class="card-body">
-          <h5 class="card-title">Contact Me</h5>
-          <p class="card-text">
-          <p>Email: <a href="mailto:sorialeo@oregonstate.edu" target="_blank">sorialeo@oregonstate.edu</a><p>
-         <a target="_blank" href="https://icons8.com/icon/60672/goal">Goal</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
+  <div id="scrollTarget">
+  <div class="d-md-flex flex-md-equal w-100 my-md-3 ps-md-3">
+    <div class="bg-black me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-left text-white overflow-hidden col-12 col-md-6">
+      <div class="my-3 py-3">
+        <h2 class="display-5">About Me</h2>
+        <p class="lead">Born and raised in a small town of Ojai,CA I had set my eyes on something big. I grew up wanting to be an engineer, and wanted to pursue Civil engineering right out of high school. But with obstacles and changes, I went on different paths to get where I am today. I pursued becoming a pilot, doctor, physical therapist, and nutritionist. Eventually I graduated from Cal State Channel Islands with a BS in Health Science deciding to become a Physical Therapist. But soon changed my path back to an engineering field because I wanted more. I wanted to be challenged and wanted to let my creative side show in a way that excites me. I want the freedom to explore the world and in a way contribute something into it as well. And so today, I am pursuing a second degree in Computer Science to fullfill that dream and want. </p>
+        </div>
+      </div>
 
-         </div>
+    <div class="bg-white me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden col-12 col-md-6">
+      <img src="images/profilepic.JPG" alt="Leo flying" style="max-width:49%;height:auto;margin-bottom: 5px;">
+      <img src="images/Lagos.JPG" alt="Lagos Portugal" style="max-width:49%;height:auto;margin-bottom: 5px;">
+      <img src="images/CinceTerre.JPG" alt="Italy" style="max-width:49%;height:auto;margin-bottom: 40px;">
+      <img src="images/dog.jpeg" alt="Leos Dog" style="max-width:49%;height:auto;margin-bottom: 40px;">
+      </div>
+  </div>
+
+  <div class="d-md-flex flex-md-equal w-100 my-md-3 ps-md-3">
+    <div class="bg-white me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden col-12 col-md-6">
+      <div class="my-3 py-3">
+        <h2 class="display-5">Cal State Channel Islands</h2>
+        <p class="lead">BS in Health Science</p>
+      </div>
+      <a href="https://healthscience.csuci.edu/" target="_blank">
+        <img src="images/CSUCI.png" alt="Cal State Channel Islands" style="max-width:50%;height:auto;margin-bottom: 30px;">
+      </a>
+    
+    </div>
+    <div class="bg-black me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center text-white overflow-hidden col-12 col-md-6">
+      <div class="my-3 p-3">
+        <h2 class="display-5">OSU Cascades</h2>
+        <p class="lead">Future BS in Computer Science.</p>
+      </div>
+      <a href="https://osucascades.edu/computer-science/learning-goals" target="_blank">
+        <img src="images/OSUCascades.png" alt="OSU Cascades" style="max-width:50%;height:auto;margin-bottom: 30px;">
+      </a>
+    </div>
+  </div>
+
+  <div class="d-md-flex flex-md-equal w-100 my-md-3 ps-md-3">
+  <div class="bg-black me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden col-12 col-md-6">
+    <img src="images/Monkless.jpeg" alt="Leo at Monkless" style="max-width:49%;height:auto;margin-bottom: 5px;">
+    <a href="https://www.csuci.edu/news/releases/flu-vaccine-clinic-2019.htm" target="_blank">
+    <img src="images/flushot.jpeg" alt="Flu shot clinic" style="max-width:49%;height:auto;margin-bottom: 5px;"></a>
+    <img src="images/PT.jpeg" alt="SPT" style="max-width:49%;height:auto;margin-bottom: 40px;">
+    <img src="images/Ovis.jpeg" alt="OVIS" style="max-width:49%;height:auto;margin-bottom: 40px;">
+    </div>
+    <div class="bg-White me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center text-black overflow-hidden col-12 col-md-6">
+      <div class="my-3 py-3">
+    
+        <h2 class="display-5">My Experience</h2>
+        <p class="lead">With all the experience that I've gained working in different places from a PT office, a brewery, and fine dining has helped me become a well rounded person ready for any situation. As most of my expereience invloves working in the food and beverage world, I believe that it has given me key skills in managing people, managing situations, developed great communication skills and the ability to be a team player.I have also taken charge in organizing a flut shot clinic At Cal State Channel Islands where we were able to provide over 1500 free flu shots. [click on flyer I built to see what I helped organize]. As I grow further along my future career, I plan to also gain more experience in the CS field to round myself out even more. </p>
+    </div>
+  </div>
+ </main>
+ <footer class="container py-5">
+  <div class="row">
+    <div class="col-12 col-md">
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="d-block mb-2" role="img" viewBox="0 0 24 24"><title>Product</title><circle cx="12" cy="12" r="10"></circle><path d="M14.31 8l5.74 9.94M9.69 8h11.48M7.38 12l5.74-9.94M9.69 16L3.95 6.06M14.31 16H2.83m13.79-4l-5.74 9.94"></path></svg>
+      <small class="d-block mb-3 text-muted">© 2023 <br> thanks for visiting!</small>
+    </div>
+  </div>
+ </footer>
 </body>
 </html>
-<div>
-</div>
-<div>
-<div>
-</div>
